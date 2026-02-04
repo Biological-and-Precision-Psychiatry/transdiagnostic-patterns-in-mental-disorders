@@ -18,7 +18,7 @@ The files contain code that reproduces key analyses of the paper. The data to
 run the code cannot be made publicly available so the code will not run outside 
 of the computing environment provided by [Statistics Denmark](https://www.dst.dk/en/).
 
-* `1_format_data.R`: This program creates data set for analysing the four aspects of disease progression. Requirements: data
+* `1_format_data.R`: This program creates datasets for analyzing the four aspects of disease progression. Requirements: data
 * `2_fine_gray.R`: This program runs analyses for diagnostic recurrence and pairwise diagnostic shifts. Requirements: data_recurrence and data_pairwise_shift created in `1_format_data.R`
 * `3_ghosh_lin.R`: This program runs analyses for the number of diagnostic shifts and the number of psychiatric contacts. Requirements: data_n_contacts and data_n_shifts created in `1_format_data.R`
 
