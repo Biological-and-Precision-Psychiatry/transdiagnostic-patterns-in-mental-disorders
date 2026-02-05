@@ -1,4 +1,4 @@
-# Title:         Analyses based on Fine-Gray models
+# Title:         Analyses based on Ghosh-Lin models
 # Author:        Eva N. S. Wandall
 # Reviewer:      Rune Haubo B. Christensen
 # Date:          2026-02-04

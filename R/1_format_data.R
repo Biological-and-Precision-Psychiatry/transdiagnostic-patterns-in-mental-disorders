@@ -1,4 +1,4 @@
-# Title:         Analyses based on Fine-Gray models
+# Title:         Create data for multi-state survival models
 # Author:        Eva N. S. Wandall
 # Reviewer:      Rune Haubo B. Christensen
 # Date:          2026-02-04
