@@ -1,4 +1,4 @@
-
+[![DOI](https://zenodo.org/badge/1105872024.svg)](https://doi.org/10.5281/zenodo.18493029)
 
 # Nationwide transdiagnostic age and sex patterns in mental disorder disease developments
 
