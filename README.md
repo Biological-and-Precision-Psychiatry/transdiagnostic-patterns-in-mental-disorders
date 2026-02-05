@@ -47,16 +47,21 @@ Most variables have a prefix indicating the type of variable:
 * `f_`: factor
 * `i_`: integer
 
-The programs require a dataset named `data` as a `data.table` object with one row for each combination of individual and contact and the following variables:
+The programs require a dataset named `data` as a `data.table` object with one row for each combination of individual and psychiatric contact and the following variables:
 
-* `id`: Identification number of the individual 
-* `d_in`: Date of first psychiatric contact 
-* `d_exit`: Date of emigration, administrative censoring or death 
-* `i_death`: Binary indicator variable denoting whether a death occurred at time d_exit 
-* `f_first_diagnosis`: Diagnostic group at first contact
-* `f_sex`: Sex of the individual
-* `f_age`: Age group of the individual at first contact
-* `f_calendar_time`: Calendar time period at first contact
-* `d_start`: Start date of current psychiatric contact
-* `f_diagnosis`: Diagnostic group representing the current contact
-
+- `id`: Identification number of the individual 
+- `d_in`: Date of first psychiatric contact 
+- `d_exit`: Date of emigration, administrative censoring or death 
+- `i_death`: Binary indicator variable denoting whether a death occurred at time d_exit. 
+  - Values: 1 = death observed, 0 = no death observed.
+- `f_first_diagnosis`: Diagnostic group representing the first contact. 
+  - Factor with levels: F10-19, F20, F21-29, F30-31, F32-33, F40-42, F60
+- `f_sex`: Sex of the individual. 
+  - Factor with levels: Male, Female
+- `f_age`: Age group of the individual at first contact. 
+  - Factor with levels: 18-24, 25-39, 40-59, 60+ (measured in years)
+- `f_calendar_time`: Calendar time period at first contact for the individual
+  - Factor with levels: 2000-2004, 2005-2009, 2010-2014, 2015-2019
+- `d_start`: Start date of current psychiatric contact
+- `f_diagnosis`: Diagnostic group representing the current contact
+  - Factor with levels: F10-19, F20, F21-29, F30-31, F32-33, F40-42, F60
